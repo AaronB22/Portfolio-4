@@ -1,0 +1,35 @@
+.nameTag{
+    font-size: 4rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #EDF5E1;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.myBioDiv{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #8EE4AF;
+    border-radius: 5%;
+    width: 40rem;
+}
+
+.myBioTxt{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+
+
+
+
+@media screen and (max-width: 1000px){
+    .myBioDiv{
+        width: 15rem;
+    }
+    .myBioTxt{
+        font-size: 1.2rem;
+    }
+}

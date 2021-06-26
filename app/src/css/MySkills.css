@@ -1,0 +1,31 @@
+.skillsTag{
+    font-size: 4rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #EDF5E1;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.skillBody{
+    background-color: #379683;
+}
+
+.primaryDiv{
+    background-color: #8EE4AF;
+    border-radius: 5%;
+    width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subHead{
+    text-align: center;
+    font-size: 4rem;
+}
+.listItems{
+    text-align: center;
+    font-size: 3rem;
+    color: #05386B
+}
