@@ -3,13 +3,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/Header.css'
 import AboutMe from "./AboutMe";
 import MySkills from "./MySkills"
-import Projects from "./Projects"
+import Projects from "./Projects";
+import Contact from "./Contact";
+import Footer from './Footer'
 
 export default class Header extends Component{
     constructor(props){
         super(props)
         this.state={
-            viewPage: ''
+            viewPage: <AboutMe />
         }
     }
 
@@ -25,6 +27,10 @@ export default class Header extends Component{
         this.setState({viewPage: <Projects />})
         this.forceUpdate()
     }
+    contact=()=>{
+        this.setState({viewPage: <Contact />})
+        this.forceUpdate()
+    }
     
     
     render(){
@@ -34,9 +40,10 @@ export default class Header extends Component{
                 <button className='btn ' onClick={this.about}>About Me!</button>
                 <button className='btn' onClick={this.skills}>My Skills!</button>
                 <button className='btn' onClick={this.projects}>My Projects!</button>
-                <button className='btn'>Contanct Me!</button>
+                <button className='btn' onClick={this.contact}>Contact Me!</button>
             </nav>
                 <div>{this.state.viewPage}</div>
+            <Footer />
             </>
         )
     }

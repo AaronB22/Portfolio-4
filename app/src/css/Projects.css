@@ -1,0 +1,67 @@
+.card{
+    width: 55rem;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #5CDB95 ;
+    border-radius: 10%;
+}
+.pageHeader{
+    font-size: 4rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #EDF5E1;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.projectTitle{
+text-align: center;
+}
+
+.projectImg{
+border:black solid 4px;
+width: 40rem;
+margin-left: auto;
+margin-right: auto;
+}
+.projectTxt{
+    margin-top: 1rem  ;
+    border-radius: 10%;
+    background-color: #55BCC9;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35rem ;
+    font-style: italic;
+    font-size:2rem;
+}
+
+.links{
+    font-size:2rem;
+    border-radius: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem  ;
+    width: 35rem;
+    background-color: #55BCC9;
+    margin-bottom: 1rem;
+}
+
+
+@media screen and (max-width: 1000px){
+    .card{
+        width: 20rem;
+    }
+    .projectImg{
+        width: 18rem;
+    }
+    .projectTxt{
+        width: 18rem;
+        font-size:1.5rem;
+    }
+    .links{
+        width: 18rem;
+        font-size:1.5rem;
+    }
+}

@@ -8,10 +8,6 @@
     font-weight: bolder;
 }
 
-.skillBody{
-    background-color: #379683;
-}
-
 .primaryDiv{
     background-color: #8EE4AF;
     border-radius: 5%;
@@ -28,4 +24,10 @@
     text-align: center;
     font-size: 3rem;
     color: #05386B
+}
+
+@media screen and (max-width: 1000px){
+    .primaryDiv{
+        width: 20rem;
+    }
 }

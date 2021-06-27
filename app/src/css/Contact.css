@@ -1,0 +1,34 @@
+.conHeader{
+    font-size: 4rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #EDF5E1;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.mainDiv{
+    background-color:#8EE4AF ;
+    width: 40rem;
+    border-radius: 10%;
+
+}
+
+.conTxt{
+    font-size: 2rem;
+}
+
+.txt{
+    font-style: italic;
+}
+
+
+@media screen and (max-width: 1000px){
+    .mainDiv{
+        width:20rem
+    }
+    .conTxt{
+        font-size: 1rem;
+    }
+}

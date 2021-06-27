@@ -1,0 +1,15 @@
+body{
+    margin: 0rem;
+    padding:0rem;
+}
+.footer{
+    height:5rem;
+    margin:0rem;
+    background-color: #5CDB95 
+}
+
+.Deploy{
+    margin-top: 3rem;
+    text-align: center;
+}
+
