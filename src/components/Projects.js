@@ -1,8 +1,10 @@
 import React, {Component} from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import projects from '../projects.json'
-import "../css/Projects.css"
-import ToolShareImg from "../img/ToolShare.png"
+import "../css/Projects.css";
+import ToolShareImg from "../img/ToolShare.png";
+import AmazingSpace from '../img/AmazingSpace.png';
+import techBlog from '../img/techBlog.png'
 
 
 
@@ -10,7 +12,7 @@ export default class AboutMe extends Component{
     constructor(props){
         super(props)
         this.state={
-           imgsArr:[ToolShareImg]
+           imgsArr:[ToolShareImg, AmazingSpace,techBlog ]
         }
     }
 
@@ -25,7 +27,7 @@ export default class AboutMe extends Component{
                     return(
                         <div key={index} className="card">
                             <h3 className='projectTitle'>{value.title}</h3>
-                            <img className="projectImg" alt={value.title} src={this.state.imgsArr[0]}></img>
+                            <img className="projectImg" alt={value.title} src={this.state.imgsArr[index]}></img>
                             <p className="projectTxt">{value.des}</p>
                             <div className="links">
                                 <p className="depLink">Deploy Link: <a href={value.deploy}> {value.deploy}</a> </p>
