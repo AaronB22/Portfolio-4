@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Portfolio-4/static/css/main.add15a6a.chunk.css",
+    "main.js": "/Portfolio-4/static/js/main.ae99d045.chunk.js",
+    "main.js.map": "/Portfolio-4/static/js/main.ae99d045.chunk.js.map",
+    "runtime-main.js": "/Portfolio-4/static/js/runtime-main.45e9cee7.js",
+    "runtime-main.js.map": "/Portfolio-4/static/js/runtime-main.45e9cee7.js.map",
+    "static/css/2.d45d6843.chunk.css": "/Portfolio-4/static/css/2.d45d6843.chunk.css",
+    "static/js/2.0f9be17d.chunk.js": "/Portfolio-4/static/js/2.0f9be17d.chunk.js",
+    "static/js/2.0f9be17d.chunk.js.map": "/Portfolio-4/static/js/2.0f9be17d.chunk.js.map",
+    "index.html": "/Portfolio-4/index.html",
+    "static/css/2.d45d6843.chunk.css.map": "/Portfolio-4/static/css/2.d45d6843.chunk.css.map",
+    "static/css/main.add15a6a.chunk.css.map": "/Portfolio-4/static/css/main.add15a6a.chunk.css.map",
+    "static/js/2.0f9be17d.chunk.js.LICENSE.txt": "/Portfolio-4/static/js/2.0f9be17d.chunk.js.LICENSE.txt",
+    "static/media/AmazingSpace.9458c988.png": "/Portfolio-4/static/media/AmazingSpace.9458c988.png",
+    "static/media/ToolShare.981c8ac4.png": "/Portfolio-4/static/media/ToolShare.981c8ac4.png",
+    "static/media/logo.6ce24c58.svg": "/Portfolio-4/static/media/logo.6ce24c58.svg",
+    "static/media/techBlog.bfe480f4.png": "/Portfolio-4/static/media/techBlog.bfe480f4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.45e9cee7.js",
+    "static/css/2.d45d6843.chunk.css",
+    "static/js/2.0f9be17d.chunk.js",
+    "static/css/main.add15a6a.chunk.css",
+    "static/js/main.ae99d045.chunk.js"
+  ]
+}
